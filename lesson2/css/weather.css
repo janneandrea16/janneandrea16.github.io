@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+:root {
+    --primary-color: #2064d8;
+    --secondary-color:#81D2C7;
+    --accent1-color: #B5BAD0;
+    --accent2-color: #E0E0E2;
+    --accent3-color: rgb(14, 7, 7);
+    --accent4-color:#f5d7ad;
+    --font-family: 'Libre Baskerville', serif;
+    --heading-font: 'Bold 700';
+    --subheading-font:'Regular 400 italic';
+    --paragraph-font: 'Regular 400';
+}
+    
+main{
+    padding: 20px;
+}
+
+html{
+    background-color: white;
+    }
+
+body{
+    max-width: 900px;
+    margin: 0 auto;
+    border-color: var(--accent1-color);
+    background-color: var(--accent2-color);
+    }
+ 
+h1{
+    color:white;
+    }
+
+
+ h2,h3
+ {
+    font-family: var(--heading-font);
+    color: var(--accent3-color);
+    }
+
+h4{
+    font-family: var(--subheading-font);
+    color: var(--primary-color);
+}
+            
+header{
+    text-align: center;
+    color: var(--accent1-color);
+    background-color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: 12rem auto;
+    align-items:center;  
+    }
+    
+p{
+    font-family: var(--paragraph-font);
+    color:black;
+    padding: 1em
+    }
+                    
+.colors{
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center
+    }
+                        
+.colors th{
+    background-color:var(--secondary-color);
+    }
+                        
+.colors td{   
+    width: 25%;
+    height: 3em
+    }
+                            
+.primary{
+    background-color: var(--primary-color);
+    }
+                                                         
+.secondary{
+    background-color: var(--accent1-color);
+    }
+                                
+.accent1{
+    background-color: var(--accent1-color);
+    }
+                                
+.accent2{
+    background-color: var(--accent2-color);
+    }
+                                
+nav{
+    color:var(--secondary-color);
+    font-size: 1.2em;
+    }
+                                
+nav > ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 0.5em;
+    text-align: center;
+    background-color:var(--accent1-color);
+    }
+
+
+
+nav a{
+    padding:1em;
+    text-decoration: none;
+    display: block;
+    }
+                                
+nav a:visited{
+    color:var(--primary-color);
+    }
+
+nav li {
+    flex: 1 1 auto;
+    }
+                                
+nav a:hover{
+    color:var(--accent1-color);
+    background-color:var(--accent2-color);
+    }
+
+footer{
+    text-align: center;
+    background-color: #EFEFD0;
+    }
+
+    
+
+

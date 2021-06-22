@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Orelega+One&display=swap');
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) 
+
+:root {
+    --primary-color: #2064d8;
+    --secondary-color:#81D2C7;
+    --accent1-color: #B5BAD0;
+    --accent2-color: #E0E0E2;
+    --accent3-color: rgb(14, 7, 7);
+}
+
+nav button {
+    display: none;
+        }
+
+nav ul.hide {
+    display: block;
+        }
+
+nav ul {
+    margin: 2%;
+        }
+
+nav ul li {
+    float: left;
+        }
+    
+nav ul li a {
+    border: none;
+    border-right: rgba(0,0,0,0.3);
+    padding: .08rem 1rem;
+        }
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width:800px;
+    margin:0 auto;
+    font-family: 'Lora', serif;
+    height:100%;
+    background-color: #70C1B3;
+}
+
+header {
+	background-color: #247BA0;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h2 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: white;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
+main {
+    margin:25px;
+    
+}
+
+
+h2  {
+    font-family: 'Orelega One', cursive;
+    margin-top:1.5em;
+    padding:2px;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    background-color: #98b2d6;    
+    padding: 0.5em;
+    margin-bottom: 1.2em;
+    border-top: 5px double;
+    border-bottom: 5px double;
+     
+}
+
+footer {
+    background-color:#247BA0;
+    padding: 5px;
+    margin-top:2em;
+    border-bottom:10px;
+    color:white;
+    text-align:center;
+   
+}
+
+footer a {
+    color:white;
+  
+}
+#displayDate {
+    padding-top:0px;
+    margin-top:-15px;
+    font-size:15px;
+    color: yellow;
+}
+
+.contentbox {
+    border: solid black ;
+    background-color: #F25F5C;
+    color: white;
+    
+}
