@@ -120,5 +120,10 @@ footer a {
 .hero-image{
     margin:64rem auto;
     background-color: var(--secondary-color);
+    
 
+}
+
+.hero-image img{
+    max-width: 750px;
 }

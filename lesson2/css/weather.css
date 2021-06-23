@@ -9,9 +9,9 @@
     --accent3-color: rgb(14, 7, 7);
     --accent4-color:#f5d7ad;
     --font-family: 'Libre Baskerville', serif;
-    --heading-font: 'Bold 700';
-    --subheading-font:'Regular 400 italic';
-    --paragraph-font: 'Regular 400';
+    --heading-font: 'italic', Bold 700;
+    --subheading-font:'italic',Regular 400;
+    --paragraph-font:'italic',Regular 400;
 }
     
 main{
@@ -64,7 +64,7 @@ p{
     width: 100%;
     min-width: 350px;
     margin: auto;
-    text-align: center
+    text-align: center;
     }
                         
 .colors th{
@@ -73,7 +73,7 @@ p{
                         
 .colors td{   
     width: 25%;
-    height: 3em
+    height: 3em;
     }
                             
 .primary{
