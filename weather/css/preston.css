@@ -65,8 +65,6 @@ header {
 	justify-content:center;
 }
 
-
-
 .headings {
 	display: flex;
 	flex-direction: column;
@@ -146,3 +144,6 @@ footer a {
     height:500px;
 }
 
+.five-day-forecast{
+    background-color: var(--secondary-color);
+}
