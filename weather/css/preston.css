@@ -78,6 +78,10 @@ main {
     margin:25px;
 }
 
+h1{
+    text-align: center;
+}
+
 h2  {
     font-family: '', cursive;
     margin-top:1.5em;
@@ -120,14 +124,18 @@ footer a {
 .hero-image{
     margin:64rem auto;
     background-color: var(--secondary-color);
-    
-
+    border:1px solid var(--accent2-color);
 }
 
 .hero-image img{
     max-width: 750px;
 }
 
+
+
 .hero-image h1{
     text-align: center;
+    width: 750px ;
+    height:500px;
 }
+
