@@ -9,9 +9,11 @@
     --accent3-color: rgb(14, 7, 7);
     --accent4-color:#f5d7ad;
     --font-family: 'Libre Baskerville', serif;
-    --heading-font: 'italic', Bold 700;
-    --subheading-font:'italic',Regular 400;
-    --paragraph-font:'italic',Regular 400;
+    --heading-font: 'italic' ;
+    --boldheading-font: 'italic' , bold;
+    --paragraph-font:'Benne',bold;
+    --boldparagraph-font:'Benne',bold;
+   
 }
     
 main{
