@@ -54,7 +54,7 @@ body {
     max-width:750px;
     margin:0 auto;
     font-family: 'Lora', serif;
-    background-color:var(--accent3-color);
+    background-color:var(--accent4-color);
 }
 
 header {
@@ -86,7 +86,7 @@ main {
 
 h1{
     text-align: center;
-    font-family: var( --heading-font);
+    font-family: var( --boldheading-font);
 }
 
 h2  {
