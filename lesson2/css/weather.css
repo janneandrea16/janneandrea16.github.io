@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-
 
 :root {
     --primary-color: #2064d8;
@@ -11,7 +9,7 @@
     --font-family:'Libre Baskerville', serif;
     --heading-font:'italic' ;
     --boldheading-font: 'italic' , bold;
-    --paragraph-font:'Benne',bold;
+    --paragraph-font:'Benne';
     --boldparagraph-font:'Benne',bold; 
 }
     

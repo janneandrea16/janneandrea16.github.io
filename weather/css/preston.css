@@ -127,3 +127,7 @@ footer a {
 .hero-image img{
     max-width: 750px;
 }
+
+.hero-image h1{
+    text-align: center;
+}
