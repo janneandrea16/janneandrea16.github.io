@@ -3,11 +3,17 @@
 @media only screen and (min-width: 64rem) {
 
 :root {
-    --primary-color: #3b7ae6;
-    --secondary-color:#c2eee8;
+    --primary-color: #2064d8;
+    --secondary-color:#81D2C7;
     --accent1-color: #B5BAD0;
-    --accent2-color: #f3e4b4;
-    --accent3-color: white;
+    --accent2-color: #E0E0E2;
+    --accent3-color: rgb(14, 7, 7);
+    --accent4-color:#f5d7ad;
+    --font-family:'Libre Baskerville', serif;
+    --heading-font:'italic' ;
+    --boldheading-font: 'italic' , bold;
+    --paragraph-font:'Benne';
+    --boldparagraph-font:'Benne',bold; 
 }
 
 nav{
@@ -80,6 +86,7 @@ main {
 
 h1{
     text-align: center;
+    font-family: var( --heading-font);
 }
 
 h2  {
