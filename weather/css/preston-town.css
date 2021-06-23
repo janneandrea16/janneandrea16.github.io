@@ -83,7 +83,7 @@ main {
     margin:25px;
 }
 
-h1{
+.hero-image h1{
     text-align: center;
     font-family: var( --boldheading-font);
 }
@@ -94,8 +94,6 @@ h2  {
     padding:2px;
     color: white;
 }
-
-
 
 footer {
     background-color:var(--accent2-color);
