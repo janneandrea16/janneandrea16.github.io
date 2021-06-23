@@ -8,12 +8,11 @@
     --accent2-color: #E0E0E2;
     --accent3-color: rgb(14, 7, 7);
     --accent4-color:#f5d7ad;
-    --font-family: 'Libre Baskerville', serif;
-    --heading-font: 'italic' ;
+    --font-family:'Libre Baskerville', serif;
+    --heading-font:'italic' ;
     --boldheading-font: 'italic' , bold;
     --paragraph-font:'Benne',bold;
-    --boldparagraph-font:'Benne',bold;
-   
+    --boldparagraph-font:'Benne',bold; 
 }
     
 main{
