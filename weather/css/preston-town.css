@@ -79,11 +79,9 @@ header {
 	font-size: .9rem;
 }
 
-main {
-    margin:25px;
-}
 
-.hero-image h1{
+
+.heroimage h1{
     text-align: center;
     font-family: var( --boldheading-font);
 }
@@ -119,39 +117,73 @@ footer a {
 /* preston-town*/
 
 .menu{
-    background-color: var(--accent4-color) ;
+    background-color: white ;
 }
+
+main{
+    background-color: white;
+}
+
+.mainh1{
+    color: var(--accent3-color);
+    font-family: var(--heading-font);
+    text-align: center;
+    
+}
+
+.heading h1{
+    color: var();}
+
 .heroimage{
     margin:10px auto;
-    background-color: var(--secondary-color);
     border:1px solid var(--accent2-color);
-    width:100%;
-    height:500px;
+    width:900px;
+    height:auto;
+}
+
+.heroimage img{
+    max-width: 750px;
 }
 
 .weathersummary{
     position:absolute;
     top:300px;
-    left:250px;
-    background-color: radial-gradient(green, lightgreen);
-    border:1px solid green;
+    left:350px;
+    background-color: var(--secondary-color);
+    border:1px solid var(--primary-color);
     padding: .5rem;
     box-shadow:0 0 30px #777;
 
-}
-.hero-image img{
-    max-width: 750px;
-}
-
-.heading h1{
-    color: var();
 }
 
 .hero-image h2{
     font-family: var(--boldheading-font);
     text-align: center;
-    width: 750px ;
-    height:500px;
+    width: 100%;
+    height:auto;
+}
+
+.article-division  {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 40px;
+}
+
+.article-division p{
+    text-align: justify;
+}
+
+.articleimage{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.contact-info{
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 40px;
 }
 
 .five-day-forecast {
@@ -177,4 +209,10 @@ h3{
 h4{
     font-family: var(--heading-font);
     color:var(--accent3-color);
+}
+
+.social img{
+    width: 35px;
+    height: 35px;
+    padding: 15px;
 }
