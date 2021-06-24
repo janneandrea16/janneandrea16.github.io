@@ -212,6 +212,10 @@ main{
     float:right;
 }
 
+.table{
+    text-align: center;
+}
+
 h2{
     font-family: var(--heading-font);
     text-align: center;
