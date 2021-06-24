@@ -227,6 +227,7 @@ main{
 }
 
 .table{
+    background-color: var(--accent5-color);
     border: 1px solid black;
     margin-left: auto;
     margin-right: auto;
@@ -234,8 +235,9 @@ main{
 }
 
 .temperatures{
-    padding:0.px;
-    background-color: var(--accent5-color);
+    padding:0.10px;
+    background-color: var(--secondary-color);
+    text-align: center;
     
 }
 
@@ -247,6 +249,7 @@ h2{
 }
 h3{
     font-family: var(--heading-font);
+    color: var(--accent5-color);
     text-align: center;
 
 }
