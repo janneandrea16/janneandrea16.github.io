@@ -155,6 +155,7 @@ main{
 }
 
 .article-division{
+    background-color: var(--accent5-color);
     display: grid;
     padding: 20px;
     grid-template-columns: 1fr 1fr; 
@@ -171,6 +172,7 @@ main{
 }
 
 .contact-info{
+    background-color: var(--accent1-color);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
@@ -206,9 +208,6 @@ main{
 .five-day-forecast p{
     padding:5px;
     text-align: center;
-}
-
-.five-day-forecast p{
     text-align: justify;
     float:right;
 }
