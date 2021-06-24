@@ -181,9 +181,9 @@ main{
 
 .contact-info{
     display: grid;
-    padding: 20px;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
+}
 }
 
 .five-day-forecast {
@@ -204,15 +204,34 @@ h2{
 h3{
     font-family: var(--heading-font);
     color:var(--accent3-color);
+    text-align: center
 }
 
 h4{
     font-family: var(--heading-font);
     color:var(--accent3-color);
+    text-align: center;
 }
 
-.social img{
+.infoimages{
+    display: flex;
+
+}
+
+.contactinfo-container{
+    padding:20px;
+}
+.contactinfo-container img{
     width: 35px;
     height: 35px;
-    padding: 15px;
+    padding: 1px;
+}
+
+.contact-info picture{
+    text-align: center;
+    margin-top: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
 }
