@@ -216,6 +216,7 @@ main{
 
 .five-day-forecast {
     background-color: var(--secondary-color);
+    padding: 20px;
 }
 
 .five-day-forecast p{
@@ -226,12 +227,16 @@ main{
 }
 
 .table{
-    text-align: center;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+   
 }
 
 .temperatures{
-    padding:5px;
-    background-color: #81D2C7;
+    padding:0.px;
+    background-color: var(--accent5-color);
+    
 }
 
 h2{
