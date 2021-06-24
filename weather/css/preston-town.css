@@ -72,6 +72,11 @@ h1 {
     color:var(--accent5-color);
 }
 
+.h2-pres{
+    color:var(--accent3-color);
+    text-align:center;
+}
+
 .eslogan {
 	font-style: italic;
 	letter-spacing: 1pt;
