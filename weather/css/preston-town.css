@@ -204,6 +204,11 @@ main{
 }
 
 .five-day-forecast p{
+    padding:5px;
+    text-align: center;
+}
+
+.five-day-forecast p{
     text-align: justify;
     float:right;
 }
