@@ -216,6 +216,11 @@ main{
     text-align: center;
 }
 
+.temperatures{
+    padding:5px;
+    background-color: #81D2C7;
+}
+
 h2{
     font-family: var(--heading-font);
     text-align: center;
