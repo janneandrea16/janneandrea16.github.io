@@ -72,10 +72,12 @@ h1 {
     color:var(--accent5-color);
 }
 
-.h2-pres{
-    color:var(--accent3-color);
-    text-align:center;
+h2{
+    font-family: var(--heading-font);
+    margin-top:1.5em;
+    color: white;
 }
+
 
 .eslogan {
 	font-style: italic;
@@ -90,12 +92,6 @@ h1 {
     font-family: var( --boldheading-font);
 }
 
-h2{
-    font-family: var(--heading-font);
-    margin-top:1.5em;
-    padding:2px;
-    color: white;
-}
 
 footer{
     background-color:var(--accent5-color);
