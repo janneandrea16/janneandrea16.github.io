@@ -65,10 +65,11 @@ header {
 	justify-content:center;
 }
 
-.heading h1 {
+h1 {
 	display: flex;
 	flex-direction: column;
     color: var(--accent2-color);
+    color:var(--accent5-color);
 }
 
 .eslogan {
@@ -222,18 +223,24 @@ main{
 }
 
 h2{
+    color:var(--accent3-color);
+    font-family: var(--heading-font);
+    text-align: center;
+
+}
+h3{
     font-family: var(--heading-font);
     text-align: center;
 
 }
 
-h3{
+h4{
     font-family: var(--heading-font);
     color:var(--accent3-color);
     text-align: center
 }
 
-h4{
+h5{
     font-family: var(--heading-font);
     color:var(--accent3-color);
     text-align: center;
