@@ -54,7 +54,11 @@ body {
     max-width:750px;
     margin:0 auto;
     font-family: 'Lora', serif;
-    background-color:var(--accent2-color);
+    background-color:var(--accent5-color);
+}
+
+html{
+    background-color: var(--accent2-color);
 }
 
 header {
