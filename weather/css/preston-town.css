@@ -9,6 +9,7 @@
     --accent2-color: #E0E0E2;
     --accent3-color: rgb(14, 7, 7);
     --accent4-color:#f5d7ad;
+    --accent5-color: white;
     --font-family:'Libre Baskerville', serif;
     --heading-font:'italic' ;
     --boldheading-font: 'italic' , bold;
@@ -95,9 +96,7 @@ h2  {
 
 footer {
     background-color:var(--accent2-color);
-    padding: 5px;
     margin-top:2em;
-    border-bottom:10px;
     color:black;
     text-align:center;
    
@@ -167,7 +166,7 @@ main{
     height:auto;
 }
 
-.article-division  {
+.article-division{
     display: grid;
     padding: 20px;
     grid-template-columns: 1fr 1fr; 
@@ -217,9 +216,12 @@ h4{
     text-align: center;
 }
 
+.contact-info{
+    background-color: var(--accent1-color);
+}
+
 .infoimages{
     display: flex;
-
 }
 
 .contactinfo-container{
@@ -233,9 +235,7 @@ h4{
 
 .contactinfo-container p{
     line-height: 0.90rem;
-    font-family: var(--paragraph-font);
-    
-    
+    font-family: var(--paragraph-font); 
 }
 
 .contact-info picture{
@@ -245,4 +245,8 @@ h4{
     margin-left: auto;
     margin-right: auto;
     /* width: 50%; */
+}
+
+footer{
+    background-color:var(--accent5-color);
 }
