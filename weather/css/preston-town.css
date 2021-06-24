@@ -136,7 +136,7 @@ main{
 .heroimage{
     margin:10px auto;
     border:1px solid var(--accent2-color);
-    width:900px;
+    width:auto;
     height:auto;
 }
 
