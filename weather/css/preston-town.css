@@ -115,7 +115,19 @@ footer{
 /* preston-town*/
 
 .menu{
-    background-color: white ;
+    
+    padding: 10px;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 0.5em;
+    text-align: center;
+    background-color: var(--accent1-color);
 }
 
 main{
