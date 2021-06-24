@@ -114,11 +114,6 @@ footer{
 
 /* preston-town*/
 
-.menu{
-    
-    padding: 10px;
-}
-
 .menu ul{
     list-style-type: none;
     display: flex;
