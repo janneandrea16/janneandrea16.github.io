@@ -156,6 +156,10 @@ main{
 
 }
 
+.weathersummary p{
+    font-family: var(--boldparagraph-font);
+}
+
 .hero-image h2{
     font-family: var(--boldheading-font);
     text-align: center;
@@ -224,7 +228,14 @@ h4{
 .contactinfo-container img{
     width: 35px;
     height: 35px;
-    padding: 1px;
+    padding: 5px;
+}
+
+.contactinfo-container p{
+    line-height: 0.90rem;
+    font-family: var(--paragraph-font);
+    
+    
 }
 
 .contact-info picture{
