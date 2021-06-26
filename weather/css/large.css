@@ -150,7 +150,7 @@ main{
 
 .weathersummary{
     position:absolute;
-    top:270px;
+    top:320px;
     left:310px;
     background-color: var(--secondary-color);
     border:1px solid var(--primary-color);
