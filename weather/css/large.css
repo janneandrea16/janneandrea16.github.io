@@ -111,6 +111,10 @@ footer{
 }
 
 /* preston-town*/
+.pancakes-p{
+    text-align: center;
+    background-color: var(--accent4-color);
+}
 
 .menu ul{
     list-style-type: none;
