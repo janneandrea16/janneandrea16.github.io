@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
 	}
+    
 .nav li {
 	display: block; /* change state in small view */
 	flex: 1 1 auto;
