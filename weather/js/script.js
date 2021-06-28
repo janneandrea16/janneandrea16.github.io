@@ -11,4 +11,12 @@ var date = currentDate.getDate();
 var month = currentDate.getMonth();
 var year = currentDate.getFullYear();
                            
-document.getElementById("displayDate").textContent = `${days[day]}, ${date} ${months[month]} ${year}`; 
+document.getElementById("displaydate").textContent = `${days[day]}, ${date} ${months[month]} ${year}`; 
+
+//pancakes message
+const d = new Date().getDay();
+let status="";
+if (d == 5){
+   status ="Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.";
+    }
+document.getElementById("pancakes").innerHTML = status;
