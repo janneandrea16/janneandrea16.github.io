@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Orelega+One&display=swap');
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
@@ -21,6 +22,11 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     --paragraph-font:'Benne';
     --boldparagraph-font:'Benne',bold; 
 }
+
+.heroimage img{
+    width: 750px;
+}
+
 
 nav{
     background-color:var(--accent2-color);

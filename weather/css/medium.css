@@ -5,6 +5,10 @@
     align-items: center;
 	}
     
+
+.heroimage img{
+    width: 750px;
+}
 .nav li {
 	display: block; /* change state in small view */
 	flex: 1 1 auto;
