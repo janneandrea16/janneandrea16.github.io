@@ -297,7 +297,7 @@ h5{
 }
 .flex-col:hover, td:hover, .column-col:hover, .grid-col:hover {
 	opacity: 0.75;
-	background-color: black;
+	background-color:var(--accent3-color);
 	color: white;
 }
 .flex, .column, .grid {
@@ -308,6 +308,7 @@ h5{
 	display: block;
 	padding: 5px;
 	border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
 	text-align: center;
 }
 
