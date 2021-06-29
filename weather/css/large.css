@@ -290,6 +290,10 @@ h5{
 	flex: 1 1 auto;
 	background-color: #bed;
 }
+
+.flex-col img{
+    padding: 5px;
+}
 .flex-col, .column-col, .grid-col {
 	border-bottom: 1px solid #333;
 	border-left: 1px solid #333;
