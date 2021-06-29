@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Orelega+One&display=swap');
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-
-/*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-/* Small/Phone View ***************/
-
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
 
 :root {
     --primary-color: #2064d8;
@@ -27,7 +21,6 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     width: 750px;
 }
 
-
 nav{
     background-color:var(--accent2-color);
 }
@@ -38,7 +31,7 @@ nav button {
 
 nav ul.hide {
     background-color:var(--accent2-color);
-    display: none;
+    display: block;
     }
 
 nav ul li {
@@ -59,73 +52,64 @@ nav a:hover{
     background-color:var(--accent2-color);
     }
 
-body{
+body {
     font-size: 16px;
     line-height: 1.5;
     max-width:750px;
     margin:0 auto;
     font-family: 'Lora', serif;
     background-color:var(--accent5-color);
-    }
-    
+}
+
 html{
     background-color: var(--accent2-color);
-    }
-    
+}
+
 header {
-    background-color:var(--primary-color);
-    padding: 5px 0;
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    }
-    
+	background-color:var(--primary-color);
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
 h1 {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
     color: var(--accent2-color);
     color:var(--accent5-color);
-    }
-    
+}
+
 h2{
     font-family: var(--heading-font);
     margin-top:1.5em;
     color: white;
-    }
-    
-    
+}
+
+
 .eslogan {
-    font-style: italic;
-    letter-spacing: 1pt;
-    color: var(--accent2-color);
-    margin-left: 20px;
-    font-size: .9rem;
-    }
-    
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: var(--accent2-color);
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
 .heroimage h1{
     text-align: center;
     font-family: var( --boldheading-font);
-    }
-    
-    
+}
+
+
 footer{
     background-color:var(--accent5-color);
     font-family: var(--paragraph-font);
     color:black;
     text-align:center;  
-    }
-    
+}
+
 .contentbox-home{
     border: solid var(--accent2-color) ;
     background-color:var(--secondary-color);
     color: black;
-    }
-.responsive li {
-	display: block;
-}
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
 }
