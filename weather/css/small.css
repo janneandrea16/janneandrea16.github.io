@@ -5,7 +5,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-/* Small/Phone View ***************/
+/* Small phone View*/
 
 
 :root {
@@ -123,9 +123,225 @@ footer{
 .responsive li {
 	display: block;
 }
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
+
+/* preston-town*/
+.pancakes-p{
+    text-align: center;
+    background-color: var(--accent4-color);
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 0.5em;
+    text-align: center;
+    background-color: var(--accent1-color);
+}
+
+main{
+    background-color: white;
+}
+
+.mainh1{
+    color: var(--accent3-color);
+    font-family: var(--heading-font);
+    text-align: center;
+}
+
+.heroimage{
+    margin:10px auto;
+    border:1px solid var(--accent2-color);
+    width:auto;
+    height:auto;
+}
+
+.heroimage img{
+    width: 750px;
+}
+
+.weathersummary{
+    position:absolute;
+    top:320px;
+    left:310px;
+    background-color: var(--secondary-color);
+    border:1px solid var(--primary-color);
+    padding: .5rem;
+    box-shadow:0 0 30px #777;
+}
+
+.weathersummary p{
+    font-family: var(--boldparagraph-font);
+}
+
+.hero-image h2{
+    font-family: var(--boldheading-font);
+    text-align: center;
+    width: 100%;
+    height:auto;
+}
+
+.article-division{
+    background-color: var(--accent5-color);
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 40px;
+}
+
+.article-division p{
+    text-align: justify;
+}
+
+.articleimage{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.contact-info{
+    background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.contactinfo-container{
+    padding:20px;
+}
+.contactinfo-container img{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+
+.contactinfo-container p{
+    line-height: 0.90rem;
+    font-family: var(--paragraph-font); 
+}
+
+.contact-info picture{
+    text-align: center;
+    margin-top: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+}
+
+.five-day-forecast {
+    padding: 20px;
+}
+
+.five-day-forecast p{
+    padding:5px;
+    text-align: center;
+    text-align: justify;
+    float:right;
+}
+
+.table{
+    background-color: var(--accent5-color);
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.temperatures{
+    padding:0.10px;
+    background-color: var(--secondary-color);
+    text-align: center;
+    
+}
+
+h2{
+    color:var(--accent3-color);
+    font-family: var(--heading-font);
+    text-align: center;
+
+}
+h3{
+    font-family: var(--heading-font);
+    color: var(--accent5-color);
+    text-align: center;
+
+}
+
+h4{
+    font-family: var(--heading-font);
+    color:var(--accent3-color);
+    text-align: center
+}
+
+h5{
+    font-family: var(--heading-font);
+    color:var(--accent3-color);
+    text-align: center;
+}
+
+.contact-info{
+    background-color: var(--accent1-color);
+}
+
+.infoimages{
+    display: flex;
+}
+
+.flex {
+	display: flex;
+	/* flex-direction: row; */
+	/* let us combine row and wrap with flow */
+	flex-flow: row wrap;
+}
+
+.flex-col {
+	flex: 1 1 auto;
+	background-color: #bed;
+}
+
+.flex-col img{
+    padding: 5px;
+}
+.flex-col, .column-col, .grid-col {
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	text-align: center;
+}
+.flex-col:hover, td:hover, .column-col:hover, .grid-col:hover {
+	opacity: 0.75;
+	background-color:var(--accent3-color);
+	color: white;
+}
+.flex, .column, .grid {
+	border-right: 1px solid #333;
+}
+
+.col-head {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+	text-align: center;
+}
+
+.cold-head img {
+	border-radius: 100px;
+	padding: 0.25rem;
+}
+
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
