@@ -6,8 +6,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /* Small/Phone View ***************/
 
-@media only screen and (min-width: 20rem) {
-:root {
+
     --primary-color: #2064d8;
     --secondary-color:#81D2C7;
     --accent1-color: #B5BAD0;
@@ -342,6 +341,4 @@ h5{
 	padding: 0 5px 5px;
 	font-size: 0.8rem;
 	text-align: center;
-}
-
 }
