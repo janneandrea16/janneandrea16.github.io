@@ -6,6 +6,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /* Small/Phone View ***************/
 
+:root{
 
     --primary-color: #2064d8;
     --secondary-color:#81D2C7;
