@@ -108,7 +108,7 @@ h2{
     
     
 footer{
-    background-color:var(--accent5-color);
+    background-color:var(--accent1-color);
     font-family: var(--paragraph-font);
     color:black;
     text-align:center;  
@@ -171,7 +171,7 @@ main{
 .weathersummary{
     position:absolute;
     top:320px;
-    left:310px;
+    left:480px;
     background-color: var(--secondary-color);
     border:1px solid var(--primary-color);
     padding: .5rem;
@@ -344,12 +344,45 @@ h5{
 	text-align: center;
 }
 
-}
-
 /* Gallery*/
 
 .images-container{
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr ;
+    text-align: center;
     }
+
+.images-container img{
+    border: 10px solid var(--accent1-color);
+    margin: auto;
+    display: block;
+}
+
+.final-picture{
+    justify-self: center;
+    grid-column: 1/3;
+}
+
+figcaption {
+    font-size: smaller;
+    background-color: var(--accent1-color);
+    text-align: center;
+    margin:15px;
+}
+
+.gallery-h1{
+    color:var(--accent3-color);
+    text-align: center;
+}
+.lazy:hover{
+    box-shadow: 0 0 50px #333;
+}
+
+}
+
+/*.lazy:hover {box-shadow: 0 0 50px green;}*/
+        
+
+
+
