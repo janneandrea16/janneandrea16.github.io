@@ -5,6 +5,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 /* Small/Phone View ***************/
+@media only screen and (min-width: 25rem) {
 :root{
 
     --primary-color: #2064d8;
@@ -341,4 +342,6 @@ h5{
 	padding: 0 5px 5px;
 	font-size: 0.8rem;
 	text-align: center;
+}
+
 }
