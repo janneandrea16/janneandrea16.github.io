@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Orelega+One&display=swap');
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-/* Small phone View*/
+/* Small/Phone View ***************/
 
 @media only screen and (min-width: 20rem) {
 :root {
