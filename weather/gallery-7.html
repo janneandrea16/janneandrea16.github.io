@@ -1,11 +1,73 @@
+<!doctype html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <title>Los Diamantes Weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
 
-<img srcset="images/lago-cuicocha.png" alt="cuicocha-image">
-<img srcset="images/chimborazo.png" alt="chimborazo-image">
-<img srcset="images/galapagos.png" alt="galapagos-image">
-<img srcset="images/snowy.png" alt="snowy-image">
-<img srcset="images/quito-cloudy.png" alt="quito-cloudy-image">
-<img srcset="images/sunny.png" alt="sunny-image">
-<img srcset="images/cloudy-mountain.png" alt="cloudy-mountain-image">
-<img srcset="images/cloudy-mountain-2.png" alt="cloudy-mountain-2-image">
-<img srcset="images/cloudy-mountain-3.png" alt="cloudy-mountain-3-image">
+<body>
+    <header>
+        <img srcset="images/weather.png" alt="weather_logo">
+        <section class="heading">
+            <h1>Los Diamantes Weather</h1>
+            <div class="eslogan">We are always right</div>
+        </section>
+    </header>
+
+    <nav class="menu">
+        <button onclick="toggleMenu()"> &#9776;</button>
+        <ul>
+            <li><a href="preston.html">Home</a></li>
+            <li><a href="preston-town.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+<main>
+<div class="images-container">
+    <figure>
+    <img srcset="images/lago-cuicocha.png" alt="cuicocha-image">
+    </figure>
+    <figure>
+    <img srcset="images/chimborazo.jpg" alt="chimborazo-image">
+    </figure>
+    <figure>
+    <img srcset="images/galapagos.jpg" alt="galapagos-image">
+    </figure>
+    <figure>
+    <img srcset="images/snowy.jpg" alt="snowy-image">
+    </figure>
+    <figure>
+    <img srcset="images/quito-cloudy.jpg" alt="quito-cloudy-image">
+    </figure>
+    <figure>
+    <img srcset="images/sunny.jpg" alt="sunny-image">
+    </figure>
+    <figure>
+    <img srcset="images/cloudy-mountain.jpg" alt="cloudy-mountain-image">
+    </figure>
+    <figure>
+    <img srcset="images/cloudy-mountain-2.jpg" alt="cloudy-mountain-2-image">
+    </figure>
+    <figure>
+    <img srcset="images/cloudy-mountain3.png" alt="cloudy-mountain-3-image">
+    </figure>
+</div>
+</main>
+    <footer>
+        <p>&copy; 2021 | Los Diamantes Weather | Andrea Lopez | <a href="https://www.byui.edu/online"
+                target="_blank">BYUI Online Learning </a></p>
+        <p id="displaydate"></p>
+        <script src="js/script.js"></script>
+    </footer>
+</body>
+</html>
