@@ -2,10 +2,7 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
 
-.heroimage img{
-    max-width: 800px;
-    }
-/*
+
 .images-container{
     margin: 0 auto;
     display: grid;
@@ -18,6 +15,6 @@
     box-shadow: 5px 5px 5px #999;
     margin: auto;
     display: block;
-    }*/
+    }
 
 }

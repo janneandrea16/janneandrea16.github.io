@@ -1,14 +1,10 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
-.nav {
+.nav{
     display: flex;
     align-items: center;
-	}
-    
-
-.heroimage img{
-    width: 750px;
 }
+    
 .nav li {
 	display: block; /* change state in small view */
 	flex: 1 1 auto;
@@ -31,7 +27,6 @@
 	
 .images-container img{
 	border: 10px solid var(--accent1-color);
-	box-shadow: 5px 5px 5px #999;
 	margin: auto;
 	display: block;
 	}
