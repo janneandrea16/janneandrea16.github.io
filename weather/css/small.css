@@ -388,6 +388,11 @@ h5{
     display: block;
 }
 
+.infoimages {
+    display: flex;
+}
+
+
 /*
 .final-picture{
     justify-self: center;
