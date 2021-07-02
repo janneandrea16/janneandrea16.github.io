@@ -16,7 +16,18 @@
 .nav li:first-child {
 	display: none;
 	}
-	
+
+	/*
+.heroimage img{
+	position: absolute;
+}	*/
+
+/*
+.weathersummary{
+	float: left;
+	}
+*/
+
 .contact-info {
 	background-color: var(--accent1-color);
 	display: grid;
