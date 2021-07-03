@@ -39,7 +39,7 @@
     </main>
     <div class="form-reservations">
         <form class="form-re" action="/my-reservations-form" method="post">
-            <h2>Contact us</h2>
+            <h2>Be the next person to report a storm!</h2>
             <ul>
                 <li class="name">
                     <label for="name">Full name: </label>
@@ -56,29 +56,29 @@
                     <input type="tel" placeholder="000-000-000" id="phone" name="user_phone">
                 </li>
             </ul>
-            <h2>Reservation Date</h2>
+            <h2></h2>
             <ul>
-                <li class="arrival_date">
-                    <label for="initial_date"> Arrival:</label>
+                <li class="zip_code">
+                    <label for="initial_date"> Zip code:</label>
                     <input type="date" id="initial_date" name="arrival">
                 </li>
                 <li>
-                    <label for="final_date"> Departure:</label>
+                    <label for="storm_date">Storm date:</label>
                     <input type="date" id="final_date" name="departure">
                 </li>
             </ul>
-            <h2>Rooms</h2>
+            <h2></h2>
             <ul>
                 <li class="rooms">
-                    <label for="adults">Number of Adults:</label>
-                    <input type="number" placeholder="1 Hab. 2 Guests " id="adults" name="adults_number">
+                    <label for="storm_type">Storm type:</label>
+                    <input type="number" placeholder="Flash Flood,Hail,Tornado" id="adults" name="adults_number">
                 </li>
-                <li class="kids">
-                    <label for="kids">Number of Kids:</label>
-                    <input type="number" placeholder="1 Hab. 2 Guests " id="kids" name="kids_number">
+                <li class="storm_severity">
+                    <label for="kids">Storm severity:</label>
+                    <input type="number" placeholder=" range (1 to 10)"  id="kids" name="kids_number">
                 </li>
                 <li class="button">
-                    <button class="form-button" type="submit">Book now</button>
+                    <button class="form-button" type="submit">Storm region:</button>
 
                 </li>
             </ul>
