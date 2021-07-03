@@ -28,6 +28,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     width: 100%;
 }
 
+
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
@@ -47,20 +48,25 @@ nav ul{
     margin: 0;
 }
 
-.nav ul li a{
+
+nav ul li a{
     display: block;
     padding: .08rem 2%;
     text-decoration: none;
-    list-style-type: none;  
+    list-style-type: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+
 }
 
-.nav ul li.active a{
+nav ul li.active a{
     background-color: rgba(80, 81, 79, 0.2);
     color: black;
+   
     }
 
 nav ul li a:hover{
     background-color: rgba(80, 81, 79, 0.4);
+   
     }
 
 
