@@ -432,6 +432,13 @@ figcaption {
     max-width: 350px;
 }
 
+.form-reservations h3{
+    text-align: center;
+    background-color:var(--accent1-color);
+    max-width: 350px;
+}
+
+
 .button{
     margin-left: 3%;
     text-align: center;
@@ -445,6 +452,7 @@ ul {
     list-style-type: none;
     display: inline;
 }
+
 
         
 

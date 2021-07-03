@@ -36,10 +36,12 @@
             <li><a href="gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
-    </main>
+    <main>
+        <h2>Be the next person to report a storm!</h2>
     <div class="form-reservations">
         <form class="form-re" action="/my-reservations-form" method="post">
-            <h2>Be the next person to report a storm!</h2>
+            
+            <h2>Personal Information</h2>
             <ul>
                 <li class="name">
                     <label for="name">Full name: </label>
@@ -55,20 +57,19 @@
                     <label for="phone">Phone Number:</label>
                     <input type="tel" placeholder="000-000-000" id="phone" name="user_phone">
                 </li>
-            </ul>
-            <h2></h2>
-            <ul>
                 <li class="zip_code">
                     <label for="initial_date"> Zip code:</label>
                     <input type="date" id="initial_date" name="arrival">
                 </li>
+            
+            <h2></h2>
+        
+                <h2>Storm's data</h2>
                 <li>
                     <label for="storm_date">Storm date:</label>
                     <input type="date" id="final_date" name="departure">
                 </li>
-            </ul>
-            <h2></h2>
-            <ul>
+
                 <li class="rooms">
                     <label for="storm_type">Storm type:</label>
                     <input type="number" placeholder="Flash Flood,Hail,Tornado" id="adults" name="adults_number">
@@ -77,8 +78,14 @@
                     <label for="kids">Storm severity:</label>
                     <input type="number" placeholder=" range (1 to 10)"  id="kids" name="kids_number">
                 </li>
+                <li class="storm_severity">
+                    <label for="kids">Storm region:</label>
+                    <input type="number" placeholder=" range (1 to 10)"  id="kids" name="kids_number">
+                </li>
+
+                
                 <li class="button">
-                    <button class="form-button" type="submit">Storm region:</button>
+                    <button class="form-button" type="submit">Submit</button>
 
                 </li>
             </ul>
