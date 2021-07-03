@@ -229,9 +229,8 @@ main{
     text-align: justify;
 }
 
-.articleimage{
-    margin: auto;
-    justify-content: center;
+div.center-image{
+	text-align: center;
 }
 
 .contact-info{
