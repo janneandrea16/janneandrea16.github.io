@@ -3,10 +3,14 @@
 @media only screen and (min-width: 64rem) {
 
 
+    
+
+
 .heroimage img{
     width: 100%;
 }
 
+/*gallery*/
 .images-container{
     margin: 0 auto;
     display: grid;
