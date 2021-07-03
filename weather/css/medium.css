@@ -37,11 +37,13 @@ div.center-image img{
 	position: absolute;
 }	*/
 
-/*
+
 .weathersummary{
-	float: left;
+	    position: absolute;
+    bottom: -50px;
+    left: 20px;
 	}
-*/
+
 
 .contact-info {
 	background-color: var(--accent1-color);
