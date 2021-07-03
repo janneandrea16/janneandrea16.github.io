@@ -57,4 +57,19 @@ div.center-image img{
 	grid-gap: 40px;
 }
 
+/*Gallery*/
+.images-container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    text-align: center;
+    }
+    
+.images-container img{
+    border: 10px solid var(--accent1-color);
+    box-shadow: 5px 5px 5px #999;
+    margin: auto;
+    display: block;
+    }
+
 } /*end medium */
