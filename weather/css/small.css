@@ -417,7 +417,34 @@ figcaption {
     box-shadow: 0 0 50px #333;
 }
 
+/*Storm center*/
+.form-reservations{
+    display:grid;
+    align-items:center;
+    justify-content:center;
+    margin: 20px;
+    box-sizing: border-box;
 
+}
+.form-reservations h2{
+    text-align: center;
+    background-color:var(--accent1-color);
+    max-width: 350px;
+}
+
+.button{
+    margin-left: 3%;
+    text-align: center;
+    padding: 5px;
+}
+.form-re{
+    border: 1px solid #B5CA8D;
+    padding: 25px;
+}
+ul {
+    list-style-type: none;
+    display: inline;
+}
 
         
 
