@@ -84,7 +84,7 @@
                     </li>
                     <li class="storm_severity">
                         <label for="kids">Storm severity:</label>
-                        <input type="range"  id="kids" name="kids_number">
+                        <input type="range" id="rating" name="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <datalist id="tickmarks">
                             <option value="0">
                             <option value="1">
