@@ -452,8 +452,9 @@ ul {
     list-style-type: none;
     display: inline;
 }
-
-
+.ymn{
+    display: block;
+}
         
 
 
