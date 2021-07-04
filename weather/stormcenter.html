@@ -44,22 +44,22 @@
                 <h2>Personal Information</h2>
                 <ul>
                     <li class="name">
-                        <label for="name">Full name: </label>
+                        <label class="top" >Full name: </label>
                         <input type="text" id="name" name="user_name" placeholder="Username" pattern="[a-zA-Z]+{5,}"
                             required>
                     </li>
 
                     <li class="email-form">
-                        <label for="mail">E-mail:</label>
+                        <label class="top">E-mail:</label>
                         <input type="email" placeholder="Email" id="mail" name="user_email">
                     </li>
 
                     <li class="phone">
-                        <label for="phone">Phone Number:</label>
+                        <label class="top">Phone Number:</label>
                         <input type="tel" placeholder="000-000-000" id="phone" name="user_phone" required>
                     </li>
                     <li class="zip_code">
-                        <label for="initial_date"> Zip code:</label>
+                        <label class="top""> Zip code:</label>
                         <input type="number" id="initial_date" name="arrival" pattern="[a-zA-Z]+{5,}" required>
                     </li>
 
@@ -67,11 +67,11 @@
                     <h2></h2>
                     <h2>Storm data</h2>
                     <li>
-                        <label for="storm_date">Storm date:</label>
+                        <label class="top">Storm date:</label>
                         <input type="date" id="final_date" name="departure">
                     </li>
                     <li class="rooms">
-                        <label for="storm_type">Storm type:</label>
+                        <label class="top">Storm type:</label>
 
                         <input list="StormType">
                         <datalist id="StormType">
@@ -83,7 +83,7 @@
                         </datalist>
                     </li>
                     <li class="storm_severity">
-                        <label for="kids">Storm severity:</label>
+                        <label class="top">Storm severity:</label>
                         <input type="range" id="rating" name="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <datalist id="tickmarks">
                             <option value="0">
@@ -100,7 +100,7 @@
                         </datalist>
                     </li>
                     <li class="storm_region">
-                        <label for="kids">Storm region:</label>
+                        <label class="top">Storm region:</label>
                         <input list="StormRegion">
                         <datalist id="StormRegion">
                             <option value="Preston">
@@ -110,7 +110,7 @@
                         </datalist>
                     </li>
                     <li class="danger_level">
-                        <label for="kids">User in-danger level:</label>
+                        <label class="top">User in-danger level:</label>
                         <label class="ymn"><input type="radio" name="level">Yes</label>
                         <label class="ymn"><input type="radio" name="level">Maybe</label>
                         <label class="ymn"><input type="radio" name="level">No</label>
