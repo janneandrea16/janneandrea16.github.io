@@ -461,3 +461,18 @@ ul {
 }
 
 
+/* Home Page*/
+
+.three-images{
+    width: 100%;
+    height: auto;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+  }
+
+article:nth-child(4) {
+	flex-direction: row-reverse;
+}
