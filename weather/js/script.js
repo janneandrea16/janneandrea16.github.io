@@ -25,6 +25,16 @@ document.getElementById("pancakes").innerHTML = status;
 
 //
 
+$(window).scroll(function() {
+  var scroll = $(window).scrollTop();
+  $("#js-hero img").css({
+    width: (100 + scroll/5) + "%"
+  })
+})
+
+
+
+
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 fetch(requestURL)
       .then(function (response) {
