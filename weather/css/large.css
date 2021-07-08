@@ -25,5 +25,11 @@
     display: block;
     }
 
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    font-size: 0.8rem;
+    }
+
 }
 
