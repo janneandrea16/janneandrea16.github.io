@@ -18,7 +18,6 @@ nav ul li a {
     padding: .08rem 1rem;   
     }
     
-
 div.center-image{
 	position: relative;
     text-align: center;
@@ -31,12 +30,6 @@ div.center-image img{
     transform: translate(-50%, -50%);
 
 }
-
-	/*
-.heroimage img{
-	position: absolute;
-}	*/
-
 
 .weathersummary{
 	    position: absolute;
@@ -74,4 +67,19 @@ div.center-image img{
     display: block;
     }
 
-} /*end medium */
+/* Home Page*/
+
+.three-images{
+    width: 100%;
+    height: auto;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+  }
+
+article:nth-child(4) {
+	flex-direction: row-reverse;
+}
+} 
