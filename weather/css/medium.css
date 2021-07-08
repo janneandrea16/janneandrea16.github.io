@@ -74,12 +74,12 @@ div.center-image img{
     height: auto;
 }
 
-article {
-    display: flex;
+.home-main div{
+    /*display: block;*/
     flex-direction: row;
   }
 
-article:nth-child(4) {
+.home-main div:nth-child(odd) {
 	flex-direction: row-reverse;
 }
 } 

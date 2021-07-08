@@ -3,7 +3,9 @@
 @media only screen and (min-width: 57rem) {
 
 
-    
+    * {
+        box-sizing: border-box;
+      }
 
 
 .heroimage img{
@@ -25,11 +27,24 @@
     display: block;
     }
 
-.home-main {
+.home-main{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     font-size: 0.8rem;
     }
 
+.home-main div{
+    flex-direction: row;
+      }
+.home-main section{
+    margin: 0 auto;
+    }
+
+.home-main img{
+    width:100%;
 }
 
+section:nth-child(3) {
+    grid-column: span 1;
+
+}
