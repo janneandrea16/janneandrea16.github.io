@@ -74,12 +74,20 @@ div.center-image img{
     height: auto;
 }
 
-.home-main div{
-    /*display: block;*/
-    flex-direction: row;
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+article:nth-child(odd) img {
+    grid-column: 2;
+  }
+  
+article:nth-child(odd) .data{
+    grid-column: 1;
+    grid-row: 1;
   }
 
-.home-main div:nth-child(odd) {
-	flex-direction: row-reverse;
 }
-} 
+  
+

@@ -27,24 +27,30 @@
     display: block;
     }
 
-.home-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    font-size: 0.8rem;
-    }
+/* Home Page*/
 
-.home-main div{
-    flex-direction: row;
-      }
-.home-main section{
-    margin: 0 auto;
-    }
+.three-images{
+    width: 100%;
+    height: auto;
+    grid-row:;
+    grid-column:;
 
-.home-main img{
-    width:100%;
 }
 
-section:nth-child(3) {
-    grid-column: span 1;
+
+* {
+    box-sizing: border-box;
+  }
+
+
+.cities-container article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.data{
+    grid-row:;
+    grid-column: ;
+}
 
 }
