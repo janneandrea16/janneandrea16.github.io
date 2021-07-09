@@ -79,8 +79,6 @@ div.center-image img{
     grid-template-columns: 1fr 1fr;
   }
   
-
-  
 article:nth-child(odd) .data{
     grid-column: 1;
     grid-row: 1;
