@@ -32,25 +32,34 @@
 .three-images{
     width: 100%;
     height: auto;
-    grid-row:;
-    grid-column:;
+    grid-row: 2;
 
 }
 
-
+/*
 * {
     box-sizing: border-box;
   }
 
+*/
 
-.cities-container article{
+
+.cities-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
-.data{
-    grid-row:;
-    grid-column: ;
+
+
+article{
+    float: left;
+    width: 100%;
 }
+
+
+
+
+
 
 }
