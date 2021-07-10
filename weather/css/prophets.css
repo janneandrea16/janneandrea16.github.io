@@ -20,16 +20,17 @@ h2{
 h3, h4{
     font-size: 0.8rem;
     font-family: 'Montserrat', sans-serif;
-    color: #bfb7b6;
+    color: black;
+
 }
 
 
 section{
-    background-color: #0d1821;
+    background-color: #aeb5eea2;
     border-style: solid;
-    border-color: rgb(207, 194, 194);
-    color: white;
-    border-radius: 15px;
+    border-color: rgb(168, 161, 161);
+    color: rgb(68, 82, 201);
+    border-radius: 10px;
     width: 100%;
     text-align: center;
 }
