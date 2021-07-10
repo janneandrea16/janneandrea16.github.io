@@ -1,0 +1,64 @@
+header {
+    text-align: center;
+}
+
+body{
+    margin: auto;
+    padding: 1rem;
+    max-width: 900px;
+    font-family: 'calibri';
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+h2{
+    font-size: 1rem;
+}
+
+h3, h4{
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #bfb7b6;
+}
+
+
+section{
+    background-color: #0d1821;
+    border-style: solid;
+    border-color: rgb(207, 194, 194);
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    width: 65%;
+}
+
+footer{
+    text-align: center;
+}
+
+@media only screen and (min-width: 35rem) {
+
+    .cards {
+        display: flex;
+        flex-flow: row wrap;
+        margin: 1rem;
+    }
+    
+    .cards section {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 57rem) {
+
+    .cards section {
+        width: 24%;
+        
+    }
+}
