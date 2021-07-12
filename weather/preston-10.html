@@ -43,12 +43,21 @@
                 <img srcset="images/hero-image.jpg" alt="hero-image">
             </picture>
             <section id="current-temp">
-                <h2>Weather Summary</h2>
-                <p>Currently: Sunny</p>
-                <p>Temperature: 76 F</p>
-                <p>Humidity: 69%</p>
-                <p>Precipitation: 0 inches</p>
-                <p>Wind Speed: 5 mph</p>
+                <p>
+                    Currently: <spam id="currently"></spam>
+                </p>
+                <p>
+                    High: <spam id="temperature"></spam> °F
+                </p>
+                <p>
+                    Wind Chill: <spam id="wind"></spam>
+                </p>
+                <p>
+                    Humidity: <spam id="humidity"></spam>%
+                </p>
+                <p>
+                    Wind Speed: <spam id="wind_speed"></spam> mph
+                </p>
             </section>
 
         </div>
@@ -148,7 +157,8 @@
                 target="_blank">BYUI Online Learning </a></p>
         <p id="displaydate"></p>
         <script src="js/script.js"></script>
-        <script src="js/weatherapi.js"></script>
+        <script src="js/weathersummary.js"></script>
+        <script src="js/weather.js"></script>
     </footer>
 </body>
 
