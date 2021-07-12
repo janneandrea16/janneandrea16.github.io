@@ -43,47 +43,46 @@
                 <img srcset="images/hero-image.jpg" alt="hero-image">
             </picture>
             <section class="weathersummary">
-                <h2>Weather Summary</h2>
-                <p>Currently: Sunny</p>
-                <p>Temperature: 76 F</p>
-                <p>Humidity: 69%</p>
-                <p>Precipitation: 0 inches</p>
-                <p>Wind Speed: 5 mph</p>
+                <p>
+                    Currently: <spam id="currently"></spam>
+                </p>
+                <p>
+                    High: <spam id="temperature"></spam> °F
+                </p>
+                <p>
+                    Wind Chill: <spam id="wind"></spam>
+                </p>
+                <p>
+                    Humidity: <spam id="humidity"></spam>%
+                </p>
+                <p>
+                    Wind Speed: <spam id="wind_speed"></spam> mph
+                </p>
             </section>
 
         </div>
 
         <div class="five-day-forecast">
             <h3>High Temperature Forecast</h3>
-            <div class="flex">
-                <div class="flex-col">
-                    <span class="col-head">Day</span>
-                    <span class="data">Forecast:</span>
-                </div>
-                <div class="flex-col">
-                    <span class="col-head">Wed</span>
-                    <img src="https://placekitten.com/50/50" alt="kitten!">
-                    <span class="data">89 F</span>
-                </div>
-                <div class="flex-col">
-                    <span class="col-head">Thu</span>
-                    <img src="https://placekitten.com/50/50" alt="kitten!">
-                    <span class="data">87 F</span>
-                </div>
-                <div class="flex-col">
-                    <span class="col-head">Fri</span>
-                    <img src="https://placekitten.com/50/50" alt="kitten!">
-                    <span class="data">78 F</span>
-                </div>
-                <div class="flex-col">
-                    <span class="col-head">Sat</span>
-                    <img src="https://placekitten.com/50/50" alt="kitten!">
-                    <span class="data">75F</span>
-                </div>
-                <div class="flex-col">
-                    <span class="col-head">Dom</span>
-                    <img src="https://placekitten.com/50/50" alt="kitten!">
-                    <span class="data">72 F</span>
+            <h2> Five Day Forecast</h2>
+                <div class="week_days">
+
+                    <div class="day_block" id="day1">
+
+                    </div>
+
+                    <div class="day_block" id="day2">
+
+                    </div>
+                    <div class="day_block" id="day3">
+
+                    </div>
+                    <div class="day_block" id="day4">
+
+                    </div>
+                    <div class="day_block" id="day5">
+
+                    </div>
                 </div>
             </div>
 
@@ -148,6 +147,8 @@
                 target="_blank">BYUI Online Learning </a></p>
         <p id="displaydate"></p>
         <script src="js/script.js"></script>
+        <script src="js/towns.js"></script>
+        <script src="js/weathersummary.js"></script>
     </footer>
 </body>
 
