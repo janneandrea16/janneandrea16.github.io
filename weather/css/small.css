@@ -466,9 +466,7 @@ ul {
 
 .week_days{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    text-align: center;
-    column-gap: 5px;
+	grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
 }
 
 .day_block{
