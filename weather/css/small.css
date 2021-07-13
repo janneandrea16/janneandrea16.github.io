@@ -470,5 +470,7 @@ ul {
 }
 
 .day_block{
+    display: block;
     background-color: var(--accent1-color);
 }
+
