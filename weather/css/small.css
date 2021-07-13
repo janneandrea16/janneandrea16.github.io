@@ -464,9 +464,9 @@ ul {
     
 }
 
-.weathersummary{
-    display: block;
-    margin: 10px auto;
-    border: 1px dashed #DE4D86;
-    padding: 15px;
+.week_days{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    column-gap: 5px;
 }
