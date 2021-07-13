@@ -469,7 +469,6 @@ ul {
 
 #five_day {
     display: block;
-    border-left: 1px solid #333;
 }
 
 .week_days{
@@ -477,11 +476,11 @@ ul {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     background-color: var(--accent1-color);
     text-align: center;
-    column-gap: 10px;
+    /*column-gap: 10px;*/
 }
 
 .day_block{
-    border-left: 1px solid #333;
+    border-left: 5px solid var(--accent5-color);
 }
 
 
