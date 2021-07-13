@@ -17,7 +17,7 @@ fetch(requestURL)
     for (let i = 0; i < filteredList.length; i++) {
         let curDay = filteredList[i]
 
-        let name = document.createElement("h3");
+        let name = document.createElement("h2");
         let temp = document.createElement("p");
         let icon = document.createElement("img");
        
@@ -81,7 +81,7 @@ fetch(requestURL)
 
 })
 console.log("hello")
-const weatherURL="https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=6fb64bcfd53c37c4e4020c47054f567f&units=imperial";
+const weatherURL="https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=f292db7505b0a669d84477ccdd0ad970";
 fetch(weatherURL)
 .then((response) => {
     return response.json()
