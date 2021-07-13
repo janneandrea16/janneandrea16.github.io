@@ -472,5 +472,5 @@ ul {
 }
 
 .day_block{
-    background-color: #587792;
+    background-color: var(--accent1-color);
 }
