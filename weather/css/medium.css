@@ -84,7 +84,8 @@ article:nth-child(odd) .data{
     grid-row: 1;
   }
 
-
+#five_day {
+    display: block;
   
 
 }

@@ -17,7 +17,7 @@ fetch(requestURL)
     for (let i = 0; i < filteredList.length; i++) {
         let curDay = filteredList[i]
 
-        let name = document.createElement("h2");
+        let name = document.createElement("h3");
         let temp = document.createElement("p");
         let icon = document.createElement("img");
        
