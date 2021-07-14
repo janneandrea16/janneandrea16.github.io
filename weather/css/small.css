@@ -444,10 +444,9 @@ ul {
     margin-top: 45px;
 }
 
-div.body{
-    background-color: var(--accent5-color);
+#index_body {
     display: grid;
-    padding: 20px;
-    grid-template-columns: 1fr ; 
-    grid-gap: 40px;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
 }
