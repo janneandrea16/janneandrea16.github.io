@@ -73,7 +73,7 @@
         width: 100%;
         height: auto;
     }
-    
+
     #five_day {
         display: block;
       
@@ -91,13 +91,6 @@
         grid-row: 1;
       }
     */
-   
-    .body,
-    .json_section {
-        max-width: 800px;
-        margin: .5rem auto;
-
-    }
 
     .json_section {
         display: grid;
@@ -105,25 +98,11 @@
         margin: 20px;
     }
 
-    .json_section:nth-child(odd) img {
-        grid-column: 1;
-    }
-
     .json_section:nth-child(odd) .data {
         grid-column: 2;
         grid-row: 1;
     }
 
-    .json_section img {
-        width: 100%;
-        height: auto;
-        padding: 0;
-        /* display: block; */
-        margin-left: auto;
-        margin-right: auto;
-        /* margin-top: 45px;
-         */
-    }
 
     .data {
         background-color: #D1F5FF;
