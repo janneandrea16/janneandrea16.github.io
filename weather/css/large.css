@@ -39,12 +39,14 @@
 .json_section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
 }
 
+/*
 div.body{
     float: left;
     width: 100%;
     background-color: var(--accent5-color);
 }
-
+*/
 }
