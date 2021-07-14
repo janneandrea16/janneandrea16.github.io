@@ -33,7 +33,7 @@ fetch(requestURL)
         h3.setAttribute("class","json_h3");
         body.setAttribute("class","json_section");
 
-        image.setAttribute('src', "images/" + filter_town[i].photo)
+        image.setAttribute('src', "/weather/images/" + filter_town[i].photo);
         
 
         document.querySelector('div#index_body').appendChild(body);
