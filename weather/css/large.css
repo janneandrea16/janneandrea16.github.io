@@ -39,7 +39,7 @@
 .json_section {
     display: block;
     grid-template-columns: 1fr;
-    background-color: #D1F5FF;
+    background-color:var(--accent1-color);
     margin: 0 auto;
     margin-bottom: 10px;
 
