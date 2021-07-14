@@ -445,7 +445,7 @@ ul {
     margin-top: 45px;
 }
 */
-#index_body {
+.json_section {
     display: grid;
     grid-template-columns: 1fr;
     column-gap: 10px;
