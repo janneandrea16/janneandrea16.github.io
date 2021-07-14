@@ -36,12 +36,12 @@
 
 }
 
-.cities-container{
+div.body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-article{
+div.body{
     float: left;
     width: 100%;
 }

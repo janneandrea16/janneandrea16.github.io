@@ -74,12 +74,12 @@ div.center-image img{
     height: auto;
 }
 
-.article {
+div.body {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   
-article:nth-child(odd) .data{
+div.body:nth-child(odd) .data{
     grid-column: 1;
     grid-row: 1;
   }
