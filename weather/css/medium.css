@@ -105,7 +105,7 @@
 
 
     .data {
-        background-color: #D1F5FF;
+        background-color: var(--accent1-color);
         margin: 0px;
     }
 
