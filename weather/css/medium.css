@@ -104,10 +104,7 @@
     }
 
 
-    .data {
-        background-color: var(--accent1-color);
-        margin: 0px;
-    }
+   
 
     .json_section p {
         padding: .75rem;
