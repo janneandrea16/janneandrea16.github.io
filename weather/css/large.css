@@ -36,11 +36,11 @@
 
 }
 
-.json_section{
+#index_body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
-}
+    column-gap: 10px;
+    margin: 0 auto;
 
 
 
