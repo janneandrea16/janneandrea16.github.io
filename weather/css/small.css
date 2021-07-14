@@ -450,4 +450,5 @@ ul {
     grid-template-columns: 1fr;
     column-gap: 10px;
     row-gap: 10px;
+    text-align: center;
 }
