@@ -113,5 +113,10 @@
         padding: .75rem;
         margin: 0px;
     }
+
+    .json_section img {
+        width: 100%;
+        height: 150px;
+    }
    
     }
