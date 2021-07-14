@@ -79,7 +79,7 @@ div.center-image img{
     grid-template-columns: 1fr 1fr;
   }
   
-#index_body:nth-child(odd) .data{
+#index_body:nth-child(odd) {
     grid-column: 1;
     grid-row: 1;
   }
