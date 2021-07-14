@@ -44,6 +44,7 @@
 div.body{
     float: left;
     width: 100%;
+    background-color: var(--accent5-color);
 }
 
 }
