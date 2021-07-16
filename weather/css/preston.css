@@ -83,7 +83,7 @@ h1 {
 h2{
     font-family: var(--heading-font);
     margin-top:1.5em;
-    color: white;
+    background-color:var(--accent3-color);
 }
 
 
