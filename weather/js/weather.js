@@ -1,4 +1,4 @@
-//info for Home page or index
+//It is the table for Home page or index
 const requestURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=f292db7505b0a669d84477ccdd0ad970"
 fetch(requestURL)
 .then((response) => {
