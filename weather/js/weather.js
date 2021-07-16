@@ -80,8 +80,7 @@ fetch(requestURL)
     }
 })
 
-
-console.log("hello")
+//console.log("hello")
 const weatherURL="https://api.openweathermap.org/data/2.5/weather?id=f292db7505b0a669d84477ccdd0ad970";
 fetch(weatherURL)
 .then((response) => {
