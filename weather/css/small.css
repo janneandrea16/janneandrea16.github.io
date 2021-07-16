@@ -462,3 +462,9 @@ ul {
 .body{
     text-align: center;
 }
+
+/*pancakes*/
+#pancakes{
+    text-align: center;
+    background-color: var(--accent4-color);
+}
