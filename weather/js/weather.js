@@ -1,3 +1,4 @@
+//infor for inHome page or index
 const requestURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=f292db7505b0a669d84477ccdd0ad970"
 fetch(requestURL)
 .then((response) => {
@@ -94,3 +95,16 @@ fetch(weatherURL)
     document.getElementById("wind_speed").innerHTML= weathersummary.wind.speed;
 });
 
+//Weather summary on the hero image
+const temp = document.getElementById('temp').innerHTML;
+const speed = document.getElementById('speed').innerHTML;
+
+
+let windchill = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, .16)) + (0.4275 * temp * Math.pow(speed, .16));
+  if (temp <= 50 && speed > 3) {
+     windchill = Math.round(windchill);
+  } 
+  else {
+     windchill = "N/A";
+  }
+document.getElementById('windchill').innerHTML = windchill;
