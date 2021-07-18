@@ -469,12 +469,15 @@ ul {
     margin: 20px;
 }
 
+.event{
+    text-align: center;
+    border: 1px dashed var(--accent2-color);
+    margin: 5em;
+}
+
 /*pancakes*/
 #pancakes{
     text-align: center;
     background-color: var(--accent4-color);
 }
 
-#events{
-    text-align: center;
-}
