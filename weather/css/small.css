@@ -188,7 +188,6 @@ main{
 
 .heroimage{
     margin:10px auto;
-    border:1px solid var(--accent2-color);
     width:auto;
     height:auto;
 }
