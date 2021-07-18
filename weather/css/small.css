@@ -466,9 +466,9 @@ ul {
 
 .five-day-forecast{
     border: 1px dashed var(--accent4-color);
-    margin: 20px;
     border: 2px dashed var(--accent2-color);
     margin: 5em;
+    padding: 5em;
 }
 
 .event{
