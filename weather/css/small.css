@@ -477,6 +477,12 @@ ul {
     padding: 2em;
 }
 
+#five_day{
+    margin: 5em;
+    border: 1px dashed var(--accent4-color);
+    padding: 5em;
+}
+
 /*pancakes*/
 #pancakes{
     text-align: center;
