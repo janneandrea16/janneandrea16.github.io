@@ -475,3 +475,6 @@ ul {
     background-color: var(--accent4-color);
 }
 
+#events{
+    text-align: center;
+}
