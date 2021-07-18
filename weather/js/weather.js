@@ -1,11 +1,22 @@
-//It is the table for Home page or index
-const requestURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=f292db7505b0a669d84477ccdd0ad970"
-fetch(requestURL)
+const page= document.getElementById('weather_page').textContent;
+
+let weatherurl="";
+if (page=="Preston"){
+    weatherurl="https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=6fb64bcfd53c37c4e4020c47054f567f&units=imperial";
+}
+else if (page=="Soda Springs"){
+    weatherurl="https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=6fb64bcfd53c37c4e4020c47054f567f&units=imperial"
+}
+else if(page=="Fish Haven"){
+    weatherurl="https://api.openweathermap.org/data/2.5/forecast?id=5604045&appid=6fb64bcfd53c37c4e4020c47054f567f&units=imperial"
+}
+
+fetch(weatherurl)
 .then((response) => {
     return response.json()
 })
 .then((fiveDayData) => {
-    console.table(fiveDayData)
+    
 
     // grabbing the list
     let fiveDayList = fiveDayData.list
@@ -78,9 +89,9 @@ fetch(requestURL)
         container.appendChild(temp)
         
     }
+
+
 });
-
-
 const pages= document.getElementById('weather_page').textContent;
 
 let weatherURL="";
