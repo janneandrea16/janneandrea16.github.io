@@ -473,13 +473,14 @@ ul {
     border: 1px dashed var(--accent4-color);
     text-align: center;
     margin: 5em;
-    padding: 2em;
+    padding: 1em;
+ 
 }
 
 #five_day{
     margin: 5em;
     border: 1px dashed var(--accent4-color);
-    padding: 5em;
+    padding: 1em;
 }
 
 /*pancakes*/
