@@ -30,6 +30,9 @@ body {
     text-decoration: none;
 }
 
+img{
+    width: 100%;
+}
 html {
     background-color: var(--accent5-color);
 }
