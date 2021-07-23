@@ -21,6 +21,14 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     --boldparagraph-font:'Benne',bold; 
 }
 
+body {
+    background-color: var(--accent5-color);
+    max-width: 960px;
+    font-size: 16px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
 html {
     background-color: var(--accent5-color);
 }
@@ -83,6 +91,7 @@ h2{
     border: 1px solid var(--accent3-color);
     box-shadow: 1px 1px var(--accent1-color);
     color: #326773;
+    text-align: center;
 }
 
 .contactdiv{
