@@ -1,42 +1,41 @@
+<!doctype html>
+<html lang="en">
 
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Smbaikaye Huriavi">
-    <meta name="description" content="Scoots Reservations Page">
-    <link rel="icon" href="/simihuriavi.github.io/favicon.ico">
-    <link rel="stylesheet" href="/simihuriavi.github.io/scoots/css/normalize.css">
-    <link rel="stylesheet" href="/simihuriavi.github.io/scoots/css/small.css">
-    <link rel="stylesheet" href="/simihuriavi.github.io/scoots/css/medium.css">
-    <link rel="stylesheet" href="/simihuriavi.github.io/scoots/css/large.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">    
-    <title>Scoots Reservations</title>
-  </head>
-  <body>
+<head>
+    <meta charset="utf-8">
+    <title>Motor scooter rental</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
     <header>
-      <img src="/simihuriavi.github.io/scoots/images/scoots_logo.png" alt="Scoots Company Logo">
-      <section class="heading">
-        <h1>SCOOTS Motor Scooter Rentals</h1>
-        <div class="motto">"Rentals to tour to your hearts content"</div>
-      </section>
+        <picture>
+            <img srcset="images/scooter.png" alt="The world logo">
+        </picture>
+        <section class="heading">
+            <h1> Motor scooter rental </h1>
+            <div class="eslogan">We'll take you whenever you want</div>
+        </section>
     </header>
-    <nav>
-      <ul class="nav_bar">
-        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-        <li><a href="/simihuriavi.github.io/scoots/home.html">Home</a></li>
-        <li><a href="/simihuriavi.github.io/scoots/rentals.html">Rentals</a></li>
-        <li><a class="active" href="/simihuriavi.github.io/scoots/reservations.html">Reservations</a></li>
-        <li><a href="/simihuriavi.github.io/scoots/tours.html">Tours</a></li>
-        <li><a href="/simihuriavi.github.io/scoots/contacts.html">Contacts</a></li>
-      </ul>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()"> &#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="home.html">Home</a></li>
+            <li class="active"><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
     <main>
       <div id="homeTitle">
         <h2>SCOOTS Reservations</h2>
       </div>
-      <div class="rentalInfo">
+      <div class="rentalinfo">
         <h4>Information and Services</h4>
         <p>* A $50 security deposit is required to confirm reservations.</p>
         <p>* A valid drivers license is required in hand at time of rental.</p>
@@ -109,7 +108,7 @@
       </div>
       <span id="dates"></span>
     </footer>
-    <script src="/simihuriavi.github.io/scoots/js/reservation.js"></script>
+    <script src="js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
     </script>
     <script>

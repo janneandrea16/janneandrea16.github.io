@@ -34,6 +34,19 @@ header{
     font-family: 'Bangers', cursive;
 }
 
+
+
+footer{
+    background-color: var(--primary-color);
+    color: var(--accent3-color);
+    font-family: var(--font-family);
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+/* Tours*/
 .tours{
     display: block;
     margin-top: 15px;
@@ -44,12 +57,46 @@ header{
     color: var(--accent3-color);
 }
 
-footer{
-    background-color: var(--primary-color);
-    color: var(--accent3-color);
-    font-family: var(--font-family);
-    font-size: 16px;
+h2{
+    color:var(--accent4-color);
+}
+
+.tours h3{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-bottom: 5px;
+    color:var(--accent4-color); 
+}
+
+/* Contact*/
+
+.rentalinfo{
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid var(--accent3-color);
+    box-shadow: 1px 1px var(--accent1-color);
+    color: #326773;
+}
+
+.contactdiv{
+    grid-template-columns: 1fr ;
+}
+
+.form fieldset{
+margin: 2rem 0;
+border: 1px solid var(--primary-color);
+border-radius: 10px;
+padding: .5rem 2%;
+}
+
+.submit_button{
     text-align: center;
-    margin: 0 auto;
-    padding-top: 10px;
+}
+
+/* Reservations */
+
+.rentalinfo{
+    
 }
