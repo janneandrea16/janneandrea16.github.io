@@ -129,7 +129,7 @@ h4{
     width: 100%;
     text-align: center;
     margin-top: 5px;
-    border: solid 1px #cdcdcd;
+    border: solid 1px var(--accent1-color);
     border-collapse: collapse;
     box-shadow: 8px 8px 12px var(--accent1-color);
 }
@@ -140,7 +140,7 @@ h4{
     width: 100%;
     text-align: center;
     margin-top: 5px;
-    border: solid 1px #cdcdcd;
+    border: solid 1px var(--accent1-color);
     border-collapse: collapse;
     box-shadow: 8px 8px 12px var(--accent1-color);
 
@@ -152,7 +152,7 @@ h4{
     width: 100%;
     text-align: center;
     margin-top: 5px;
-    border: solid 1px #cdcdcd;
+    border: solid 1px var(--accent1-color);
     border-collapse: collapse;
     box-shadow: 8px 8px 12px var(--accent1-color);
 }
