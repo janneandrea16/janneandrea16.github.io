@@ -1,0 +1,55 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Small/Phone View */
+
+:root{
+    --primary-color: #EDEBA0;
+    --secondary-color:#D1EFB5;
+    --accent1-color: #C3C48D;
+    --accent2-color: #E0E0E2;
+    --accent3-color: rgb(14, 7, 7);
+    --accent4-color:#928C6F;
+    --accent5-color: white;
+    --font-family:'Libre Baskerville', serif;
+    --heading-font:'italic' ;
+    --boldheading-font: 'italic' , bold;
+    --paragraph-font:'Benne';
+    --boldparagraph-font:'Benne',bold; 
+}
+
+html {
+    background-color: var(--accent5-color);
+}
+
+header{
+    color: var(--primary-color);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5px 0;
+    font-family: 'Bangers', cursive;
+}
+
+.tours{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid var();
+    box-shadow: 1px 1px var(--accent1-color);
+    color: var(--accent3-color);
+}
+
+footer{
+    background-color: var(--primary-color);
+    color: var(--accent3-color);
+    font-family: var(--font-family);
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+}
