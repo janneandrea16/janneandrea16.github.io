@@ -31,75 +31,69 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-<div class="form-reservations">
-    <form class="form-re" action="/my-reservations-form" method="post">
-        <h2>Contact us</h2>
-        <ul>
-            <li class="name">
-                <label for="name">Full name: </label>
-                <input type="text" id="name" name="user_name" placeholder="Username">
-            </li>
-
-            <li class="email-form">
-                <label for="mail">E-mail:</label>
-                <input type="email" placeholder="Email" id="mail" name="user_email">
-            </li>
-
-            <li class="phone">
-                <label for="phone">Phone Number:</label>
-                <input type="tel" placeholder="000-000-000" id="phone" name="user_phone">
-            </li>
-            <li class="button">
-                <button class="form-button" type="submit">Book now</button>
-            </li>
-            
-        </ul>
-</body>
-
-<div class="contact-info">
-    <div class="map">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9957.915870544735!2d-111.88307362242965!3d42.096630589680935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sve!4v1624482591214!5m2!1ses!2sve"></iframe>
-    </div>
-    <section class="contactinfo-container">
-        <h5>Contact Information</h5>
-        <div class="infoimages">
-            <a href="https://www.google.com/maps/place/Doral+de+Villa+Club+-+Parque+Principal/@-2.0440948,-79.8856714,15z/data=!4m5!3m4!1s0x902d12224fc682af:0xe91de397172f02f5!8m2!3d-2.0411208!4d-79.8947212/"
-                target="_blank"><img srcset="images/map.png" alt="map icon">
-            </a>
-            <p>
-                3505 California Avenue
-            </p>
+    <main>
+        <div id="homeTitle">
+          <img src="/simihuriavi.github.io/scoots/images/cozumel.jpg" alt="Cozumel">
+          <h2>Welcome to SCOOTS Rentals</h2>
         </div>
-
-        <div class="infoimages">
-            <a href="callto://215-829-999" target="_blank"> <img srcset="images/phone.png" alt="phone icon" /></a>
-            <p>215-829-9999</p>
+        <div class="cards">
+          <section>
+            <h4>Playa Del Carmen-Ferry Dock</h4>
+            <img src="/simihuriavi.github.io/scoots/images/playa400.jpg" alt="Playa Del Carmen Ferry Dock">
+            <form method="GET" action="reservations.html">
+              <input class="submit_button" type="submit" value="Reserve Now" id="homeSubmit">
+            </form>
+          </section>
+          <div class="rentalInfoHome">
+            <h3>Rental Information</h3>
+            <h4>Types of Rentals</h4>
+            <p>&#9679; Honda Motor Scooters</p>
+            <p style ="text-indent: 1cm;">&bull; Honda Metropolitan (49cc) - 1 person</p>
+            <p style ="text-indent: 1cm;">&bull; Honda Dio (110cc) - 2 person</p>
+            <p style ="text-indent: 1cm;">&bull; Honda PCX150 (149cc) - 2 person</p>
+            <p>&#9679; ATV Side-by-Side</p>
+            <p style ="text-indent: 1cm;">&bull; Honda Pioneer 1000</p>
+            <p>&#9679; Jeep Rentals</p>
+            <p style ="text-indent: 1cm;">&bull; 4-door Jeep Wrangler - manual with A/C - 5 people max</p>
+            <p style ="text-indent: 1cm;">&bull; 2-door Jeep Wrangler - open air - manual - 4 people max</p>
+          </div>
+          <section>
+            <h4>Terminal Puerta Maya</h4>
+            <img src="/simihuriavi.github.io/scoots/images/puerta400.jpg" alt="Terminal Puerta Maya">
+            <form method="GET" action="reservations.html">
+              <input class="submit_button" type="submit" value="Reserve Now" id="homeSubmit">
+            </form>
+          </section>
+          <section class="summary">
+            <h3>Cozumel Current Weather</h3>
+              <p>Currently: 
+                <span id="currently"></span>
+              </p>
+              <p>Temp: 
+                <span id="temp"></span>
+              &#176;F</p>
+              <p>Humidity: 
+                <span id="humidity"></span>
+              %</p>
+                </section>
+          <div class="forecasts">
+            <h3>Cozumel's Forecast</h3>
+            <div id="day1"></div>
+            <img src="#" alt="" id="img1">
+            <div id="temp1"></div>
+          </div>
+          <div class="links">
+            <h3>Check Us Out on Social Media!</h3>
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+            <a href="https://www.pinterest.com/" class="fa fa-pinterest"></a>
+          </div>
         </div>
-
-        <div class="infoimages">
-            <a href="mailto://info@diamantes.weather.com"> <img srcset="images/mail.png" alt="mail icon" /></a>
-            <p>info@diamantes.weather.com</p>
-        </div>
-        <div class="social">
-            <a href="https://www.facebook.com/" target="_blank" rel="opener" style="text-decoration:none"></a>
-            <img srcset="images/facebook.png" alt="facebook icon">
-            <a href="https://www.instagram.com/" target="_blank" rel="opener" style="text-decoration:none"></a>
-            <img srcset="images/instagram.png" alt=" Instagram icon">
-            <a href="https://twitter.com/" target=”_blank” rel="opener">
-                <img srcset="images/twitter.png" alt=" twitter icon">
-            </a>
-        </div>
-    </section>
-</div>
-</main>
+      </main>
 <footer>
     <p>&copy; 2021 | Motor scooter rental | Andrea Lopez | <a href="https://www.byui.edu/online" target="_blank">BYUI
             Online Learning </a></p>
-    <br><a href="https://wireframe.cc/Pu0bWu" target="_blank" rel="noopener">Small</a>
-    <br><a href="https://wireframe.cc/9QrExS" target="_blank" rel="noopener">Medium</a>
-    <br><a href="https://wireframe.cc/G5Mtpv" target="_blank" rel="noopener">Large</a>
-
     <p id="displaydate"></p>
     <script src="js/script.js"></script>
 </footer>
