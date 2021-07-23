@@ -21,6 +21,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     --boldparagraph-font:'Benne',bold; 
 }
 
+
 body {
     background-color: var(--accent5-color);
     max-width: 960px;
@@ -38,6 +39,7 @@ header{
     background: var(--accent1-color);
     align-items: center;
     justify-content: center;
+    max-width: 960px;
     display: flex;
     padding: 5px 0;
     font-family: 'Bangers', cursive;
@@ -49,6 +51,7 @@ footer{
     background-color: var(--primary-color);
     color: var(--accent3-color);
     font-family: var(--font-family);
+    max-width: 960px;
     font-size: 16px;
     text-align: center;
     margin: 0 auto;
