@@ -47,13 +47,13 @@ nav ul li a{
     padding: .08rem 2%;
     text-decoration: none;
     list-style-type: none;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid var(--accent3-color);
 
 }
 
 nav ul li.active a{
     background-color: rgba(80, 81, 79, 0.2);
-    color: black;
+    color: var(--accent3-color);
    
     }
 
