@@ -18,9 +18,25 @@ iframe{
     margin: 20px;
 }
 
-/*Home*/
+
 #five_day {
     display: block;
+}
+
+.day_black img{
+    width: 64px;
+}
+
+.day_block {
+    border-left: 5px solid var(--accent1-color);
+}
+
+.week_days {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: var(--accent1-color);
+    text-align: center;
+    /* column-gap: 10px*/
 }
 
 #gallery_imgs{
