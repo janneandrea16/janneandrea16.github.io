@@ -1,7 +1,7 @@
 const page= document.getElementById('weather_page').textContent;
 
 let weatherurl="";
-if (page=="Preston"){
+if (page=="Cozumel"){
     weatherurl="https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=6fb64bcfd53c37c4e4020c47054f567f&units=imperial";
 }
 else if (page=="Soda Springs"){
