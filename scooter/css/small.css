@@ -157,6 +157,15 @@ h4{
     box-shadow: 8px 8px 12px var(--accent1-color);
 }
 
+.weathersummary{
+    background: radial-gradient(#eee, #70C1B3);
+    text-align: center;
+    border: 1px solid #000;
+    padding: 1.5rem;
+    box-shadow: 0 0 50px #333;
+    opacity: .8;
+}
+
 .social{
     /*display: grid;*/
     /*grid-template-columns: 1fr;*/
