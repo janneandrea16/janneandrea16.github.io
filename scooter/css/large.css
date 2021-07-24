@@ -3,7 +3,7 @@
 @media only screen and (min-width: 57rem) {
 
 /* Rentals*/
-.gallery_imgs{
+#gallery_imgs{
     grid-template-columns: 1fr 1fr 1fr;
     display: grid;
     }
