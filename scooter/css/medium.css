@@ -1,6 +1,10 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
 
+/*Home*/
+.social{
+    text-align: center;
+}
 
 /* Contact*/ 
 .contactdiv{
@@ -30,5 +34,7 @@ iframe{
     display: grid;
     grid-gap:20px;
 }
+
+
 
 }
