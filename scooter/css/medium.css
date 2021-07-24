@@ -13,4 +13,9 @@
     display: block;
 }
 
+.gallery_imgs{
+    grid-template-columns: 1fr 1fr ;
+    display: grid;
+}
+
 }
