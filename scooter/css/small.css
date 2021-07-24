@@ -224,3 +224,7 @@ tr:nth-child(even) {
     background: var(--accent2-color);
     border: solid 1.5px #cdcdcd;
 }
+
+td{
+    border: solid 1.5px #cdcdcd;
+}
