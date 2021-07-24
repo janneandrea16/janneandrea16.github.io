@@ -95,7 +95,7 @@ fetch(weatherurl)
 const pages= document.getElementById('weather_page').textContent;
 
 let weatherURL="";
-if (pages=="Preston"){
+if (pages=="Cozumel"){
     weatherURL="https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=6fb64bcfd53c37c4e4020c47054f567f&units=imperial";
 }
 else if (pages=="Soda Springs"){
@@ -131,7 +131,7 @@ fetch(requestURL)
 
     console.table(jsonObject);
     let filter_town = jsonObject.towns.filter(town => {
-        return town.name == "Fish Haven" || town.name=="Preston" || town.name=="Soda Springs";
+        return town.name == "Cozumel" 
         
 
     });
