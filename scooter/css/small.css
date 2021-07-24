@@ -158,8 +158,8 @@ h4{
 }
 
 .social{
-    display: grid;
-    grid-template-columns: 1fr;
+    /*display: grid;*/
+    /*grid-template-columns: 1fr;*/
     width:64px;
     display: block;
     margin-left: auto;
