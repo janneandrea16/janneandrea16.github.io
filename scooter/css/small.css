@@ -217,8 +217,10 @@ padding: .5rem 2%;
 
 tr:nth-child(odd) {
     background: var(--accent1-color);
+    border: solid 1.5px #cdcdcd;
 }
 
 tr:nth-child(even) {
     background: var(--accent2-color);
+    border: solid 1.5px #cdcdcd;
 }
