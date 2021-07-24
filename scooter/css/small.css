@@ -234,6 +234,7 @@ padding: .5rem 2%;
     box-shadow: 1px 1px var(--accent1-color);
     text-align: center;
     margin: auto;
+    background-color: var(--accent2-color);
 }
 
 
