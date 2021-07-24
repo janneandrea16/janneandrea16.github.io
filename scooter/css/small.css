@@ -163,7 +163,7 @@ h4{
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 10px;
-    border: 1px solid var();
+    border: 1px solid var(--accent2-color);
     box-shadow: 1px 1px var(--accent1-color);
     color: var(--accent3-color);
 }
