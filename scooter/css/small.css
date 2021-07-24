@@ -213,5 +213,9 @@ padding: .5rem 2%;
     text-align: center;
 }
 
-/* Reservations */
+/* Rentals */
+
+tr:nth-child(odd) {
+    background: var(--accent2-color);
+}
 
