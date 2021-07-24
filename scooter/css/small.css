@@ -288,3 +288,8 @@ td{
     display: grid;
     }
     
+.gallery_imgs p{
+    font-weight: bold;
+    text-align: center;
+    color: var(--accent1-color);
+}
