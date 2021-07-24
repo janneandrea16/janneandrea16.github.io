@@ -216,6 +216,9 @@ padding: .5rem 2%;
 /* Rentals */
 
 tr:nth-child(odd) {
-    background: var(--accent2-color);
+    background: var(--accent1-color);
 }
 
+tr:nth-child(even) {
+    background: var(--accent2-color);
+}
