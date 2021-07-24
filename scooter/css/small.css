@@ -229,11 +229,11 @@ padding: .5rem 2%;
 
 .contact_info{
     display: block;
-    margin-top: 15px;
     padding: 10px;
     border: 1px solid var(--accent3-color);
     box-shadow: 1px 1px var(--accent1-color);
     text-align: center;
+    margin: auto;
 }
 
 
