@@ -228,3 +228,24 @@ tr:nth-child(even) {
 td{
     border: solid 1.5px #cdcdcd;
 }
+
+/*Home */
+
+.fore_img{
+    width:64px;
+}
+
+.submit_button{
+    text-align: center;
+}
+
+
+#five_day {
+    margin: 5em;
+    border: 1px dashed var(--accent4-color);
+    padding: 1em;
+}
+
+.day_block{
+    border-left: 5px solid var(--accent5-color);
+}
