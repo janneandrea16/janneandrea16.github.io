@@ -157,14 +157,6 @@ h4{
     box-shadow: 8px 8px 12px var(--accent1-color);
 }
 
-.weathersummary{
-    background: radial-gradient(var(--accent1-color));
-    text-align: center;
-    border: 1px solid #000;
-    padding: 1.5rem;
-    box-shadow: 0 0 50px var(--accent1-color);
-    opacity: .8;
-}
 
 .social{
     /*display: grid;*/
@@ -271,7 +263,16 @@ td{
     text-align: center;
 }
 
-
+.weathersummary{
+    background: radial-gradient(var(--accent1-color));
+    text-align: center;
+    border: 1px solid #000;
+    padding: 1.5rem;
+    box-shadow: 0 0 50px var(--accent1-color);
+    opacity: .8;
+    font-weight: bold;
+    background-color: var(--primary-color);
+}
 
 #five_day {
     margin: 5em;
