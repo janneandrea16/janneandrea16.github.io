@@ -6,19 +6,6 @@
     text-align: center;
 }
 
-/* Contact*/ 
-.contactdiv{
-    grid-template-columns: 1fr 1fr ;
-    text-align: center;
-    display: grid;
-    grid-gap: 20px;
-    }
-
-iframe{
-    margin: 20px;
-}
-
-
 #five_day {
     display: block;
 }
@@ -38,6 +25,21 @@ iframe{
     text-align: center;
     /* column-gap: 10px*/
 }
+
+/* Contact*/ 
+.contactdiv{
+    grid-template-columns: 1fr 1fr ;
+    text-align: center;
+    display: grid;
+    grid-gap: 20px;
+    }
+
+iframe{
+    margin: 20px;
+}
+
+
+
 
 #gallery_imgs{
     grid-template-columns: 1fr 1fr ;
