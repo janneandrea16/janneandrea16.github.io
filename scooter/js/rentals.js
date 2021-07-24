@@ -14,7 +14,7 @@ function toggleMenu() {
   document.getElementById("copyright").innerHTML = year;
   
   
-  const url = "data.scoots.json";
+  const url = "https://mfuller45.github.io/final/data/scoots.json";
   fetch(url)
     .then((response) => response.json())
       .then((data) => {
