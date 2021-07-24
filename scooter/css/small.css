@@ -317,3 +317,12 @@ form label.top, form label.info, form div {
     display: block;
     padding-top: 1rem;
 }
+
+form label.rental {
+    display: block;
+    padding: .75rem 0;
+}
+
+.submit_button{
+    text-align: center;
+}
