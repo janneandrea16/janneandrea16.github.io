@@ -1,4 +1,4 @@
-const page= document.getElementById('weather_page').textContent;
+const page= document.getElementById('five_day').textContent;
 
 let weatherurl="https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=6fb64bcfd53c37c4e4020c47054f567f&units=imperial";
 
