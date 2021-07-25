@@ -1,4 +1,4 @@
-const apiURL = "https://github.com/janneandrea16/rental-data.git";
+const apiURL = "data.json";
 fetch(url)
   .then((response) => response.json())
     .then((data) => {
