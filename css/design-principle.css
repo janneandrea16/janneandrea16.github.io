@@ -40,6 +40,16 @@ h1{
     max-width: 760px;
 }
 
+footer{
+    background-color:var(--accent1-color);
+    font-size: 40px;
+    padding: 25px;
+    border-radius: 14px;
+    text-align: center;
+
+}
+
+
 p{
     text-align: center;
     padding: 10px;
