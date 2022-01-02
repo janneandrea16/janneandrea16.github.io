@@ -3,6 +3,7 @@
     --primary-color:black;;
     --secondary-color:#2A4849;
     --accent1-color: #B5CA8D;
+    --accent2-color:white;
     --font-family: "Lato", Helvetica, sans-serif;
 }
 
@@ -13,7 +14,7 @@ main{
 }
 
 html {
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
 }
 
 div{
@@ -28,12 +29,15 @@ head{
 body{
     max-width: 960px;
     margin: 0 auto; 
-    text-align: center;
 }
 
-h2{
-    color: var(--secondary-color);
+h1{
+    background-color:var(--accent1-color);
+    font-size: 40px;
+    padding: 25px;
+    border-radius: 14px;
     text-align: center;
+    max-width: 760px;
 }
 
 p{
